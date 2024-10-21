@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   margin: 0;
+   padding: 0;
+   background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865392.jpg?size=626&ext=jpg&ga=GA1.1.1943073273.1709191626&semt=ais");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-repeat:fixed;
+    background-position:center;
+    background-origin: content-box;
+}
+.container{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+input{
+
+    border-radius: 25px;
+    border:5px solid #244624;
+    font-size:35px;
+    text-align: right;
+    height: 90px;
+    width:450px;
+    background-color:rgb(188, 223, 225);
+}
+button{
+    color:white;
+    border-radius:35%;
+    font-size: 25px;
+    background:rgb(25, 154, 228);
+    width: 70px;
+    height:60px;
+    margin:10px;
+    box-shadow: 2px 2px white;
+}
+button:hover{
+    color:chocolate;
+}
+button:active{
+    color: darkblue;
+}
+
+.calculator{ 
+    border: 4px solid blueviolet;
+    background-color: #eaebaa00;
+    padding:15px;
+    border-radius:60px;
+    display: inline-block;
+    
+}
+p{
+    top:10%;
+    left:50%;
+    margin:10px;
+    padding:5px;
+    font-size:60px;
+    color: white;
+    text-shadow:10px 5px black;
+}
+
